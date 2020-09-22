@@ -1,0 +1,26 @@
+.fa {
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    margin-right: 8px;
+}
+.margin-right {
+    margin-right: 16px;
+}
+
+.col-md-7, .col-md-4 {
+padding-top: .75rem;
+padding-bottom: .75rem;
+background-color: rgba(86,61,124,.15);
+border: 1px solid rgba(86,61,124,.2);
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.info{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Barbara's Resume</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="col-md-4">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="C:\Users\bpinc\OneDrive\Documents\bootcamp\week4\saturday\resume_bootstrap\img\pic1.jpg" class="card-img-top" alt="Barbara Phillips in her graduation ceremony">
+                    <div class="card-body">
+                      <p class="card-text">Software Developer</p>
+                    </div>
+                </div>
+
+                <div class="info mx-auto">
+                 <ul class="nav nav-tabs" id="myTab" role="tablist" style="padding-bottom: 16px;">
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link active" id="info-tab" data-toggle="tab" href="#info" role="tab" aria-controls="info" aria-selected="true">Info</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" id="skills-tab" data-toggle="tab" href="#skills" role="tab" aria-controls="skills" aria-selected="false">Skills</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" id="language-tab" data-toggle="tab" href="#language" role="tab" aria-controls="language" aria-selected="false">Language</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="info" role="tabpanel" aria-labelledby="info-tab">
+                            <p><i class="fa fa-briefcase margin-right"></i>Software Developer</p>
+                            <p><i class="fa fa-home margin-right"></i>Houston, TX</p>
+                            <p><i class="fa fa-envelope margin-right"></i>bpincelamattos@gmail.com</p>
+                            <p><i class="fa fa-linkedin margin-right"></i><a href="https://www.linkedin.com/in/bárbara-pincela-89394079" target="_blank">My Linkedin</a></p>
+                        </div>
+                        <div class="tab-pane fade" id="skills" role="tabpanel" aria-labelledby="skills-tab">
+                            <li>Microsoft Office</li>
+                            <li>UML (Unified Modeling Language)</li>
+                            <li>C# - Visual Studio</li>
+                            <li>Object Oriented Programming concepts</li>
+                            <li>HTML</li>
+                            <li>JavaScript</li>
+                            <li>CSS</li>
+                        </div>
+                        <div class="tab-pane fade" id="language" role="tabpanel" aria-labelledby="language-tab">
+                            <li>Portuguese</li>
+                            <li>English</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col-md-7">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                      <h3 class="display-5" style="padding-bottom: 20px;">Professional Summary</h3>
+                      <p class=""><i>Bilingual (Portuguese and English) computer engineer with expertise in systems analysis, supporting existing enterprise resource planning (ERP) systems, and defining improvements and customizations relevant to the business with developers. Detail-oriented with strong analytical and programming logic skills. Fast learner with excellent interpersonal, writing and verbal skills. Experience developing projects in C#, C++, and HTML5.</i></p>
+                    </div>
+                  </div>
+                <hr class="my-4">
+
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                      <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <i class="fa fa-certificate margin-right"></i>Education
+                          </button>
+                        </h2>
+                      </div>
+                  
+                      <div id="collapseOne" style="padding-bottom: 20px;" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <h5 class="opacity text-grey"><b>Digital Craft</b></h5>
+                            <h6 class="text-teal"><i class = "fa fa-calendar margin-right"></i>August, 2020 - February, 2021</h6>
+                            <p>Full Stack Flex Program, Software Development</p>
+                            <h5 class="opacity text-grey"><b>University of Santa Cecilia</b></h5>
+                            <h6 class="text-teal"><i class = "fa fa-calendar margin-right"></i>2012 - 2016</h6>
+                            <p>Bachelor Degree Computer Engineering</p>
+                            <ul>
+                                <li>Won National Congress of Scientific Research Award - Best project in the Architecture and Engineer category, “Internal Vehicle Safety System for Children,” a car seat prototype controlled by the platform Arduino Mega2560 (10/2016).</li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="fa fa-suitcase margin-right"></i>Work Experience
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p class="text-grey"><b>Cummins Brazil - Sao Paulo, Brazil</b><br /> <i>System Analyst</i></p>
+                            <h6 class="text-teal"><i class = "fa fa-calendar margin-right"></i>February, 2015 - December, 2016</h6>
+                            <ul>
+                                <li>Provided staff and users with assistance in solving system related problems on the phone, via e-mail, in person, and through remote access or internal ticket system.</li>
+                                <li>Successfully closed 90% of system support calls on the first contact without having to escalate the call.</li>
+                                <li>Developed methods to improve functionality to existing computer systems.</li>
+                                <li>Implemented new enterprise resource planning (ERP) system in 8 branches of the distribution unit.</li>
+                                <li>Developed more than 20 user and technical manuals for the new ERP system with 95% customer satisfaction.</li>
+                                <li>Conducted tests to ensure all systems work as expected.</li>
+                                <li>Trained system end users and wrote instruction manuals.</li>
+                                <li>Oversaw the installation and configuration of updates and customized them for the organization.</li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                
+                <hr class="my-4">
+                <div class="card">
+                    <h5 class="card-header"><i class="fa fa-microchip margin-right xxlarge text-teal"></i>
+                        Project</h5>
+                    <div class="card-body">
+                      <p class="card-text">Projects and exericises in my GitHub page</p>
+                      <a href="https://github.com/bpincelamattos" target="_blank" class="btn btn-primary">My GitHub</a>
+                    </div>
+                  </div>
+
+            </div>
+        </div>
+        
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
